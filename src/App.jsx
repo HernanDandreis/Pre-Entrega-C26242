@@ -3,6 +3,7 @@ import Header from './assets/components/Header/Header'
 import Footer from './assets/components/Footer/Footer'
 import ItemListContainer from './assets/components/ItemListContainer/ItemListContainer'
 import './App.css'
+import ItemDetailContainer from './assets/components/ItemDetailContainer/ItemDetailContainer';
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
           <Route className="dummyTitle" path="/products" element={<ItemListContainer/>} />
           <Route className="dummyTitle" path="/about" element={<h1>Nosotros</h1>} />
           <Route className="dummyTitle" path="/contact" element={<h1>Contacto</h1>} />
-          <Route className="dummyTitle" path="/product/:id" element={<h1>Detalle de producto</h1>} />
+          <Route className="dummyTitle" path="/product/:id" element={<ItemDetailContainer/>} />
           <Route className="dummyTitle" path="/cart" element={<h1>Carrito</h1>} />
           <Route className="dummyTitle" path="/login" element={<h1>Login</h1>} />
           <Route path="*" element=

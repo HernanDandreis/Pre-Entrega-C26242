@@ -1,10 +1,14 @@
+import Item from '../Item/Item';
+import './ItemDetail.css'
+
 const ItemDetail = ({ item }) => {
     return (
         <article className="item-detail">
-            <h2>{item.name}</h2>
-            <img src={item.image} alt={item.name} />
-            <p>{item.description}</p>
-            <p>Precio: ${item.price.toFixed(2)}</p>
+            <div className="item-detail-card">
+                <Item {...item}>
+                    <button>Agregar</button>
+                </Item>
+            </div>
         </article>
     )
 }
