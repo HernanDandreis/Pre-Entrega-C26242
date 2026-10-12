@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Pack de Íconos Pixel Art",
+    "description": "Colección de íconos en pixel art con estética retro, ideal para videojuegos, interfaces y proyectos digitales.",
+    "price": 4500,
+    "image": "/img/iconos-pixelart.png",
+    "category": "recursos"
+  },
+  {
+    "id": 2,
+    "name": "Personajes Pixel Art",
+    "description": "Pack de personajes pixel art con distintas poses y expresiones, pensado para juegos 2D y proyectos creativos.",
+    "price": 6500,
+    "image": "/img/personajes-pixelart.png",
+    "category": "personajes"
+  },
+  {
+    "id": 3,
+    "name": "Tileset Bosque Pixel Art",
+    "description": "Conjunto de tiles y elementos de escenario para crear bosques en juegos 2D con una estética pixel art clásica.",
+    "price": 7900,
+    "image": "/img/tileset-bosque.png",
+    "category": "escenarios"
+  },
+  {
+    "id": 4,
+    "name": "Pack de Armas Pixel Art",
+    "description": "Armas y objetos equipables en pixel art para RPG, aventuras y videojuegos de acción con estilo retro.",
+    "price": 5200,
+    "image": "/img/armas-pixelart.png",
+    "category": "objetos"
+  },
+  {
+    "id": 5,
+    "name": "Criaturas Pixel Art",
+    "description": "Selección de criaturas y monstruos pixel art para poblar mazmorras, bosques y mundos fantásticos en juegos 2D.",
+    "price": 7200,
+    "image": "/img/criaturas-pixelart.png",
+    "category": "personajes"
+  },
+  {
+    "id": 6,
+    "name": "Pack de Efectos Pixel Art",
+    "description": "Efectos visuales pixel art, como explosiones, destellos y magia, para dar más vida a tus videojuegos retro.",
+    "price": 5900,
+    "image": "/img/efectos-pixelart.png",
+    "category": "recursos"
+  }
+]
